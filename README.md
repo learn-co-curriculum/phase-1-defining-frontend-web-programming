@@ -3,63 +3,78 @@
 ## Learning Goals
 
 - Define web programming
-- Identify the “Three Pillars of Web Programming"
+- Identify reference example
+- Identify the "Three Pillars of Web Programming"
 
 ## Introduction
 
-HTML, CSS and JavaScript are the main tools we use to build the web. To imagine
-how they all work together, think about the web as a robot. HTML is the robot's
-structure, CSS is the paint on the robot, plus how its pieces are positioned,
-and JavaScript is what actually makes the robot move. So if we want to build web
-applications that accept, change and return information (in other words, make
-the robot _move_), we'll need understand the Document Object Model (DOM), the
-JavaScript language and the principles of web programming.
+"Front-End Web Programming" is a phrase that gets used in a lot of places by a
+lot of people. In this lesson we're going to create a common definition of "web
+programming" and show one example that demonstrates all of "web programming's"
+parts.
 
 ### Define Web Programming
 
-Web programming, in the most general sense, is how we markup and code web sites
-and web applications. Usually when we talk specifically about web programming,
-we are focusing on the part where we are working with data in some way: taking
-it in, pushing it out, saving, changing or deleting it. For this, we need a
-programming language. JavaScript is the language designed to work on the front-
-end, or user-facing part, of the web.
+Web programming, at its heart, is:
 
-While this might be your first introduction to web programming as a programmer,
-you've probably experienced plenty of web interactions that someone else
-programmed for you. For example, have you ever "favorited" a post on social
-media? Chances are that interaction went something like this:
+> Creating documents with HTML, styling / positioning the documents' content
+> with CSS and updating that content and servers based on events using
+> JavaScript.
 
-1. You click an empty heart next to a social media post that you like.
-2. You see the heart become fully red to indicate your appreciation.
+When a document has a lot of JavaScript code so that the page feels closer to a
+computer application, people call it a "**web application**."
+
+## Identify Reference Example
+
+While this might be your first introduction to looking at some of your favorite
+sites with "web programmer" eyes, you've probably experienced plenty of web
+interactions that someone else programmed for you. As you move through the rest
+of this material, we're going to use _one, tiny_ interaction as our shared
+example.
+
+> **Web Programming Example**: "Favoriting" a social media post.
+
+Regardless of the social media site (Instagram, Pinterest, Facebook, LinkedIn,
+Twitter), the interaction went something like this:
+
+1. The site renders some HTML content that is styled using CSS
+2. You see the content and decide to show your approval of it
+3. You _click_ some visual element meant to show approval (heart,
+   thumbs-up, +1, etc.) picture e.g. <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/empty.png" alt="Twitter empty heart">
+4. The visual element _changes_ (animates, goes from empty to full, jiggles, etc) e.g.  <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/full.png" alt="Twitter full heart">
+5. Behind the scenes, the application _tells the provider_ that such and such
+   post has gained one more approval (so that they can notify the creator or
+   re-share your approved message to your network)
 
 If all goes as it should, the entire process only takes a second or two. But
-there are a few other steps going on behind the scenes to make that heart red.
-Let's take a closer look at those steps.
+in this moment we did _all_ the work of front end web programming.
 
 ### Identify the "Three Pillars of Web Programming"
 
-We can break down web programming into three essential "pillars":
+We can break down web programming into three essential "pillars": In the
+previous list, we _italicized_ steps 3-5. Each of those demonstrated one of the
+"pillars" we must learn in order to be web programmers.
 
-  - Manipulating the DOM
-  - Recognizing JS events
-  - Communication with the server
+  - Step 3 showed "**Recognizing JS events**:" Your click action on the empty heart
+    tells JavaScript to do work
+  - Step 4 showed "**Manipulating the DOM**:" the work JavaScript was told to
+    do was to update the screen to make the heart "look clicked"
+  - Step 5 showed "**Communicate with the server**:" the work JavaScript was
+    told to do was to tell the social media company that you approved of this
+    content
 
-Using our "favoriting" example, here's how those pillars translate to our steps:
-
-1. Your click action on the empty heart triggers a JavaScript event.
-2. JavaScript sends a notification to the server.
-3. After a successful post to the server, the event updates the DOM with a full heart.
-
-Now you know what's going on when you click that heart! The next step is to look
-at the code that makes that happen.
+Now you know what's going on when you click that heart! The next lessons will
+focus on explaining each of the "pillars" to you. In the end your "web
+programmer" eyes will have you looking at your favorite sites very differently!
 
 ## Conclusion
 
-Web programming is how we build ways of information input and output for the
-web. We can break down web programming into three pillars that involve working
-with the DOM, JavaScript eventing and communication with the server. Now that
-we've seen how these elements are connected in principle, we can now move on to
-seeing how they work together in practice.
+Web Programming is creating documents with HTML, styling / positioning the
+documents' content with CSS and updating that content and servers based on
+events using JavaScript. We can break down web programming into three pillars
+that involve working with the DOM, JavaScript eventing and communication with
+the server. Now that we've seen how these elements are connected in principle,
+we can now move on to seeing how they work together in practice.
 
 ## Resources
 
