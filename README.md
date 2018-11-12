@@ -17,12 +17,15 @@ parts.
 
 Web programming, at its heart, is:
 
-> Creating documents with HTML, styling / positioning the documents' content
-> with CSS and updating that content and servers based on events using
-> JavaScript.
+> Creating documents with HTML, styling / positioning the document's content
+> with CSS, and using JavaScript to provide interactivity / notify remote
+> servers.
 
 When a document has a lot of JavaScript code so that the page feels closer to a
-computer application, people call it a "**web application**."
+computer application, people call it a "**web application**." There's no clear
+line like "When there's three or more actions it's a web application!" That means
+individuals' boundaries are different, but it's an application when it feels
+"rich."
 
 ## Identify Reference Example
 
@@ -40,11 +43,11 @@ Twitter), the interaction went something like this:
 1. The site renders some HTML content that is styled using CSS
 2. You see the content and decide to show your approval of it
 3. You _click_ some visual element meant to show approval (heart,
-   thumbs-up, +1, etc.) picture e.g. <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/empty.png" alt="Twitter empty heart">
-4. The visual element _changes_ (animates, goes from empty to full, jiggles, etc) e.g.  <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/full.png" alt="Twitter full heart">
-5. Behind the scenes, the application _tells the provider_ that such and such
-   post has gained one more approval (so that they can notify the creator or
-   re-share your approved message to your network)
+   thumbs-up, +1, etc.). For example: <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/empty.png" alt="Twitter empty heart">
+4. The visual element _updates_ (animates, goes from empty to full, jiggles, etc) like:  <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/full.png" alt="Twitter full heart">
+5. Behind the scenes, the application _tells the provider_ that this
+   post has gained your approval so that the central provider can notify 
+   the creator or something similar
 
 If all goes as it should, the entire process only takes a second or two. But
 in this moment we did _all_ the work of front end web programming.
@@ -52,19 +55,20 @@ in this moment we did _all_ the work of front end web programming.
 ### Identify the "Three Pillars of Web Programming"
 
 We can break down web programming into three essential "pillars": In the
-previous list, we _italicized_ steps 3-5. Each of those demonstrated one of the
-"pillars" we must learn in order to be web programmers.
+previous list, we _italicized_  the characteristic verb in steps 3-5. Each of those
+words exemplifies the activity of one of the "pillars" we must learn in order to be
+web programmers.
 
-  - Step 3 showed "**Recognizing JS events**:" Your click action on the empty heart
+  - Step 3 showed "**Recognizing JS events**:" Your _click_ action on the empty heart
     tells JavaScript to do work
   - Step 4 showed "**Manipulating the DOM**:" the work JavaScript was told to
-    do was to update the screen to make the heart "look clicked"
+    do was to _update_ the screen to make the heart "look clicked"
   - Step 5 showed "**Communicate with the server**:" the work JavaScript was
-    told to do was to tell the social media company that you approved of this
+    told to do was to _tell the social media company_ that you approved of this
     content
 
 Now you know what's going on when you click that heart! The next lessons will
-focus on explaining each of the "pillars" to you. In the end your "web
+focus on explaining each of the "pillars" to you. This course will have your "web
 programmer" eyes will have you looking at your favorite sites very differently!
 
 ## Conclusion
