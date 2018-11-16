@@ -80,6 +80,4 @@ that involve working with the DOM, JavaScript eventing and communication with
 the server. Now that we've seen how these elements are connected in principle,
 we can now move on to seeing how they work together in practice.
 
-## Resources
-
-- "Three Pillars of Web Programming" reference sheet
+<p class='util--hide'>View <a href='https://learn.co/lessons/fewpjs-fewp-example'>Front-End Web Programming Example</a> on Learn.co and start learning to code for free.</p>
