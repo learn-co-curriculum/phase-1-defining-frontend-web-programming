@@ -68,8 +68,8 @@ web programmers.
     content
 
 Now you know what's going on when you click that heart! The next lessons will
-focus on explaining each of the "pillars" to you. This course will have your "web
-programmer" eyes will have you looking at your favorite sites very differently!
+focus on explaining each of the "pillars" to you. After you've worked your way through them, your new "web
+programmer" eyes will have you looking at your favorite sites very differently.
 
 ## Conclusion
 
