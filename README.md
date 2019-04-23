@@ -52,7 +52,7 @@ Twitter), the interaction went something like this:
 If all goes as it should, the entire process only takes a second or two. But
 in this moment we did _all_ the work of front end web programming.
 
-### Identify the "Three Pillars of Web Programming"
+### Flatiron's "Three Pillars of Web Programming"
 
 We can break down web programming into three essential "pillars": In the
 previous list, we _italicized_  the characteristic verb in steps 3-5. Each of those
