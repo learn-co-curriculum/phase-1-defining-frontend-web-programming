@@ -10,7 +10,7 @@
 ## Introduction
 
 The phrase "Front-End Web Programming" is used in different ways by different
-people. In this lesson we're going to choose a definition of "web programming"
+people. In this lesson, we're going to choose a definition of "web programming"
 and show an example that demonstrates the different parts of "web programming",
 so that we know our objective for the next set of lessons.
 
@@ -27,18 +27,15 @@ Web programming, at its heart, is:
 
 When a web page has a lot of JavaScript code, the page feels closer to a
 computer application, so people call it a "**web application**." There's no
-clear distinction between "web page" and "web applications" like "When there's
-three or more actions it's a web application!". Different people draw the
+clear distinction between "web page" and "web applications" like "When there
+are three or more actions it's a web application!". Different people draw the
 boundary differently. More or less, we call a web page an "application" when it
 feels "rich."
 
 ## Identify Reference Example: Liking on Social Media
 
-While this might be your first introduction to looking at some of your favorite
-sites with "web programmer" eyes, you've probably experienced plenty of web
-interactions that someone else programmed for you. As you move through the rest
-of this material, we're going to use _one, tiny_ interaction as our shared or
-"reference" example.
+As we move through the rest of this material, we're going to use _one, tiny_
+interaction as our shared or "reference" example.
 
 > **Web Programming Example**: "Favoriting" a social media post.
 
@@ -102,7 +99,7 @@ documents' content with CSS, and updating that content and servers based on
 events using JavaScript. We can break down the JavaScript part of web
 programming into three pillars that involve working with the DOM, JavaScript
 eventing and communication with the server. Now that we've seen how these
-pillars are connected in the abstract, we are ready to dive in to seeing how
+pillars are connected in the abstract, we are ready to dive into seeing how
 they work together in detail.
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/fewpjs-fewp-example'>Front-End Web Programming Example</a> on Learn.co and start learning to code for free.</p>
