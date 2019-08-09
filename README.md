@@ -45,8 +45,8 @@ Twitter), the interaction goes something like this:
 1. The site renders some HTML content that is styled using CSS
 2. You see the content and decide to show your approval of it
 3. You _click_ some visual element meant to show approval (heart,
-   thumbs-up, +1, etc.). For example: <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/empty.png" alt="Twitter empty heart">
-4. The visual element _updates_ (animates, goes from empty to full, jiggles, etc) like:  <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/full.png" alt="Twitter full heart">
+   thumbs-up, +1, etc.). For example: <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_30_SocMediaCropped.png" height="20" alt="Twitter empty heart">
+4. The visual element _updates_ (animates, goes from empty to full, jiggles, etc) like:  <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_30_SocMediaCropped1.png" height="20" alt="Twitter full heart">
 5. Behind the scenes, the application _tells the provider_ that this
    post has gained your approval so that the central provider can store
    this information and use it later (for example, to notify the post 
