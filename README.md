@@ -18,7 +18,7 @@ so that we know our objective for the next set of lessons.
 
 Web programming, at its heart, is:
 
-* Creating documents with HTML, styling / positioning the document's content
+* Creating documents with HTML and styling/positioning the document's content
   with CSS
 * Using JavaScript to provide interactivity
 * Using JavaScript to notify remote servers
@@ -59,7 +59,7 @@ programming.
 ## Flatiron's "Three Pillars of Web Programming"
 
 To help us learn web programming in three distinct phases, this curriculum is
-broken down into three essential "pillars:" 
+broken down into three essential "pillars":
 
 <p align="center">
   <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_ThreePillarsConcept.png" width="500">
@@ -106,7 +106,7 @@ your favorite sites very differently.
 
 ## Conclusion
 
-Web Programming is creating documents with HTML, styling / positioning the
+Web Programming is creating documents with HTML, styling/positioning the
 documents' content with CSS, and updating that content and servers based on
 events using JavaScript. We can break down the JavaScript part of web
 programming into three pillars that involve working with the DOM, JavaScript
