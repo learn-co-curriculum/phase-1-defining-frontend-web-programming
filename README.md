@@ -14,7 +14,7 @@ people. In this lesson, we're going to choose a definition of "web programming"
 and show an example that demonstrates the different parts of "web programming",
 so that we know our objective for the next set of lessons.
 
-## Define Web Programming
+## What Exactly Does "Web Programming" Mean Anyway?
 
 Web programming, at its heart, is:
 
@@ -23,12 +23,13 @@ Web programming, at its heart, is:
 * Using JavaScript to provide interactivity
 * Using JavaScript to notify remote servers
 
-## Contrast Web Page Versus Web Application
+## Web Page vs. Web Application
 
 When a web page has a lot of JavaScript code, the page feels closer to a
-computer application, so people call it a "**web application**." There's no
-clear distinction between "web page" and "web applications" like "When there
-are three or more actions it's a web application!". Different people draw the
+computer application, so some people may call it a "**web application**." 
+However, it's worth noting that there is no _**clear distinction**_ between a 
+"web page" and a "web application." For instance, there's no rule like "When 
+there are three or more actions it's a web application!" Different people draw the
 boundary differently. More or less, we call a web page an "application" when it
 feels "rich."
 
