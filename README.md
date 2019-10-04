@@ -54,7 +54,7 @@ Twitter), the interaction goes something like this:
    author that you liked their post).
 
 If all goes as it should, the entire interaction only takes a second or two.
-But even this small interaction demonstrates all the concepts of front end web
+But even this small interaction demonstrates all the concepts of front-end web
 programming.
 
 ## Flatiron's "Three Pillars of Web Programming"
