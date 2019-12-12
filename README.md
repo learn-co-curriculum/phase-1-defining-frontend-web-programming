@@ -14,21 +14,22 @@ people. In this lesson, we're going to choose a definition of "web programming"
 and show an example that demonstrates the different parts of "web programming",
 so that we know our objective for the next set of lessons.
 
-## Define Web Programming
+## What Exactly Does "Web Programming" Mean Anyway?
 
 Web programming, at its heart, is:
 
-* Creating documents with HTML, styling / positioning the document's content
+* Creating documents with HTML and styling/positioning the document's content
   with CSS
 * Using JavaScript to provide interactivity
 * Using JavaScript to notify remote servers
 
-## Contrast Web Page Versus Web Application
+## Web Page vs. Web Application
 
 When a web page has a lot of JavaScript code, the page feels closer to a
-computer application, so people call it a "**web application**." There's no
-clear distinction between "web page" and "web applications" like "When there
-are three or more actions it's a web application!". Different people draw the
+computer application, so some people may call it a "**web application**." 
+However, it's worth noting that there is no _**clear distinction**_ between a 
+"web page" and a "web application." For instance, there's no rule like "When 
+there are three or more actions it's a web application!" Different people draw the
 boundary differently. More or less, we call a web page an "application" when it
 feels "rich."
 
@@ -53,13 +54,13 @@ Twitter), the interaction goes something like this:
    author that you liked their post).
 
 If all goes as it should, the entire interaction only takes a second or two.
-But even this small interaction demonstrates all the concepts of front end web
+But even this small interaction demonstrates all the concepts of front-end web
 programming.
 
 ## Flatiron's "Three Pillars of Web Programming"
 
 To help us learn web programming in three distinct phases, this curriculum is
-broken down into three essential "pillars:" 
+broken down into three essential "pillars":
 
 <p align="center">
   <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_ThreePillarsConcept.png" width="500">
@@ -106,7 +107,7 @@ your favorite sites very differently.
 
 ## Conclusion
 
-Web Programming is creating documents with HTML, styling / positioning the
+Web Programming is creating documents with HTML, styling/positioning the
 documents' content with CSS, and updating that content and servers based on
 events using JavaScript. We can break down the JavaScript part of web
 programming into three pillars that involve working with the DOM, JavaScript
