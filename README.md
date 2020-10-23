@@ -114,5 +114,3 @@ programming into three pillars that involve working with the DOM, JavaScript
 eventing and communication with the server. Now that we've seen how these
 pillars are connected in the abstract, we are ready to dive into seeing how
 they work together in detail.
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/fewpjs-fewp-example'>Front-End Web Programming Example</a> on Learn.co and start learning to code for free.</p>
