@@ -62,7 +62,9 @@ programming.
 To help us learn web programming in three distinct phases, this curriculum is
 broken down into three essential "pillars":
 
-![](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_ThreePillarsConcept.png)
+<p align="center">
+  <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_ThreePillarsConcept.png" width="500">
+</p>
 
 - **Recognize Events**
 - **Manipulate the DOM**
@@ -72,19 +74,19 @@ In the steps of the Favoriting a Social Media Post example, we _italicized_
 the characteristic verb in steps 3-5. Each of those words exemplifies the
 activity of one of the "pillars" we must learn in order to make web
 applications.
-
-![](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_RecognizeEvents.png)
-    
+    <p align="center">
+      <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_RecognizeEvents.png" width="300">
+    </p>
   - Step 3 showed "**Recognizing JS events**:" Your _click_ action on the empty
     heart tells JavaScript to do work
-    
-    ![](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_ManipulateDOM.png)
-    
+    <p align="center">
+      <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_ManipulateDOM.png" width="300">
+    </p>
   - Step 4 showed "**Manipulating the DOM**:" the work JavaScript was told to
     do was to _update_ the screen to make the heart "look clicked"
-    
-    ![](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_CommServer.png)
-    
+    <p align="center">
+      <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_CommServer.png" width="300">
+    </p>
   - Step 5 showed "**Communicating with the server**:" the work JavaScript was
     told to do was to _tell the social media company_ that you approved of this
     content
