@@ -46,8 +46,15 @@ Twitter), the interaction goes something like this:
 1. The site renders some HTML content that is styled using CSS
 2. You see the content and decide to show your approval of it
 3. You _click_ some visual element meant to show approval (heart,
-   thumbs-up, +1, etc.). For example: <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_30_SocMediaCropped.png" height="20" alt="Twitter empty heart">
-4. The visual element _updates_ (animates, goes from empty to full, jiggles, etc) like:  <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_30_SocMediaCropped1.png" height="20" alt="Twitter full heart">
+   thumbs-up, +1, etc.). For example:
+
+   ![heart](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_30_SocMediaCropped.png)
+
+4. The visual element _updates_ (animates, goes from empty to full, jiggles,
+   etc) like:  
+
+   ![full heart](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_30_SocMediaCropped1.png)
+
 5. Behind the scenes, the application _tells the provider_ that this
    post has gained your approval so that the central provider can store
    this information and use it later (for example, to notify the post 
@@ -62,9 +69,7 @@ programming.
 To help us learn web programming in three distinct phases, this curriculum is
 broken down into three essential "pillars":
 
-<p align="center">
-  <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_ThreePillarsConcept.png" width="500">
-</p>
+![three pillars](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_ThreePillarsConcept.png)
 
 - **Recognize Events**
 - **Manipulate the DOM**
@@ -74,19 +79,16 @@ In the steps of the Favoriting a Social Media Post example, we _italicized_
 the characteristic verb in steps 3-5. Each of those words exemplifies the
 activity of one of the "pillars" we must learn in order to make web
 applications.
-    <p align="center">
-      <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_RecognizeEvents.png" width="300">
-    </p>
+
+![recognize events](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_RecognizeEvents.png)
+
   - Step 3 showed "**Recognizing JS events**:" Your _click_ action on the empty
     heart tells JavaScript to do work
-    <p align="center">
-      <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_ManipulateDOM.png" width="300">
-    </p>
+    
+
   - Step 4 showed "**Manipulating the DOM**:" the work JavaScript was told to
     do was to _update_ the screen to make the heart "look clicked"
-    <p align="center">
-      <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_CommServer.png" width="300">
-    </p>
+
   - Step 5 showed "**Communicating with the server**:" the work JavaScript was
     told to do was to _tell the social media company_ that you approved of this
     content
