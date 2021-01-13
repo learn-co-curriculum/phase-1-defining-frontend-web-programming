@@ -1,4 +1,4 @@
-# Demonstrate a Front-End Web Programming Example
+# A Front-End Web Programming Example
 
 ## Learning Goals
 
