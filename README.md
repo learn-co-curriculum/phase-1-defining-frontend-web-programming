@@ -44,7 +44,9 @@ Regardless of the social media site (Instagram, Pinterest, Facebook, LinkedIn,
 Twitter), the interaction goes something like this:
 
 Step 1: The site renders some HTML content that is styled using CSS
+
 Step 2: You see the content and decide to show your approval of it
+
 Step 3: You _click_ some visual element meant to show approval (heart,
    thumbs-up, +1, etc.). For example:
 
