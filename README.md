@@ -43,19 +43,19 @@ interaction as our shared or "reference" example.
 Regardless of the social media site (Instagram, Pinterest, Facebook, LinkedIn,
 Twitter), the interaction goes something like this:
 
-1. The site renders some HTML content that is styled using CSS
-2. You see the content and decide to show your approval of it
-3. You _click_ some visual element meant to show approval (heart,
+Step 1: The site renders some HTML content that is styled using CSS
+Step 2: You see the content and decide to show your approval of it
+Step 3: You _click_ some visual element meant to show approval (heart,
    thumbs-up, +1, etc.). For example:
 
    ![heart](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_30_SocMediaCropped.png)
 
-4. The visual element _updates_ (animates, goes from empty to full, jiggles,
+Step 4: The visual element _updates_ (animates, goes from empty to full, jiggles,
    etc) like:  
 
    ![full heart](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_30_SocMediaCropped1.png)
 
-5. Behind the scenes, the application _tells the provider_ that this
+Step 5: Behind the scenes, the application _tells the provider_ that this
    post has gained your approval so that the central provider can store
    this information and use it later (for example, to notify the post 
    author that you liked their post).
