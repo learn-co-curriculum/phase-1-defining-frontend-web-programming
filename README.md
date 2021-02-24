@@ -3,37 +3,38 @@
 ## Learning Goals
 
 - Define web programming
-- Contrast web page versus web application
-- Identify reference example: "Liking on social media"
+- Contrast web pages versus web applications
+- Identify a reference example: "Liking on social media"
 - Identify the "Three Pillars of Web Programming"
 
 ## Introduction
 
 The phrase "Front-End Web Programming" is used in different ways by different
 people. In this lesson, we're going to choose a definition of "web programming"
-and show an example that demonstrates the different parts of "web programming",
-so that we know our objective for the next set of lessons.
+and show an example that demonstrates Flatiron's "three pillars" of web
+programming. We will explore each of those pillars in detail in upcoming
+lessons.
 
 ## What Exactly Does "Web Programming" Mean Anyway?
 
 Web programming, at its heart, is:
 
-* Creating documents with HTML and styling/positioning the document's content
+- Creating documents with HTML and styling/positioning the documents' content
   with CSS
-* Using JavaScript to provide interactivity
-* Using JavaScript to notify remote servers
+- Using JavaScript to provide interactivity
+- Using JavaScript to notify remote servers
 
 ## Web Page vs. Web Application
 
 When a web page has a lot of JavaScript code, the page feels closer to a
 computer application, so some people may call it a "**web application**." 
-However, it's worth noting that there is no _**clear distinction**_ between a 
+However, it's worth noting that there is _**no clear distinction**_ between a 
 "web page" and a "web application." For instance, there's no rule like "When 
 there are three or more actions it's a web application!" Different people draw the
 boundary differently. More or less, we call a web page an "application" when it
 feels "rich."
 
-## Identify Reference Example: Liking on Social Media
+## Identify a Reference Example: Liking on Social Media
 
 As we move through the rest of this material, we're going to use _one, tiny_
 interaction as our shared or "reference" example.
@@ -77,26 +78,23 @@ broken down into three essential "pillars":
 - **Manipulate the DOM**
 - **Communicate with the Server**
 
-In the steps of the Favoriting a Social Media Post example, we _italicized_
-the characteristic verb in steps 3-5. Each of those words exemplifies the
-activity of one of the "pillars" we must learn in order to make web
-applications.
+Let's take another look at steps 3 through 5 of our Favoriting a Social Media
+Post example. Note that we _italicized_ a verb in each step. Those words
+exemplify the activity of one of the "pillars" we must learn in order to make
+web applications.
 
-![recognize events](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_RecognizeEvents.png)
+- Step 3 showed **Recognizing JS events**: Your _click_ action on the empty
+  heart tells JavaScript to do work
 
-  - Step 3 showed "**Recognizing JS events**:" Your _click_ action on the empty
-    heart tells JavaScript to do work
-    
+- Step 4 showed **Manipulating the DOM**: the work JavaScript was told to do
+  was to _update_ the screen to make the heart "look clicked"
 
-  - Step 4 showed "**Manipulating the DOM**:" the work JavaScript was told to
-    do was to _update_ the screen to make the heart "look clicked"
+- Step 5 showed **Communicating with the server**: the work JavaScript was
+  told to do was to _tell the social media company_ that you approved of this
+  content
 
-  - Step 5 showed "**Communicating with the server**:" the work JavaScript was
-    told to do was to _tell the social media company_ that you approved of this
-    content
-
-> **THINKING ABOUT LEARNING** These "pillars" are not something professional
-> developers outside Flatiron School curriculum recognize. You won't go into a
+> **THINKING ABOUT LEARNING:** These "pillars" are not something professional
+> developers outside Flatiron School recognize. You won't go into a
 > tech interview and be asked: "Name the three pillars of web programming."
 > These abstractions are a way to help learners (you!) recognize how what
 > you're learning fits into three major activity areas. That said, if an
@@ -111,10 +109,9 @@ your favorite sites very differently.
 
 ## Conclusion
 
-Web Programming is creating documents with HTML, styling/positioning the
-documents' content with CSS, and updating that content and servers based on
-events using JavaScript. We can break down the JavaScript part of web
-programming into three pillars that involve working with the DOM, JavaScript
-eventing and communication with the server. Now that we've seen how these
-pillars are connected in the abstract, we are ready to dive into seeing how
-they work together in detail.
+Web Programming consists of creating documents with HTML, styling/positioning
+the documents' content with CSS, and using JavaScript to respond to events. We
+can break down the JavaScript part of web programming into three "pillars":
+recognizing events, updating the DOM, and informing the server. Now
+that we've seen how these pillars are connected in the abstract, we are ready to
+dive into seeing how they work together in detail.
