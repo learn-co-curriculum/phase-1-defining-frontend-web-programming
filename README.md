@@ -1,4 +1,4 @@
-# Introduction to Front-End Web Programming
+# Defining Front-End Web Programming
 
 ## Learning Goals
 
