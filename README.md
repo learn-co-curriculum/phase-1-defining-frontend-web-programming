@@ -51,12 +51,12 @@ Step 2: You see the content and decide to show your approval of it
 Step 3: You _click_ some visual element meant to show approval (heart,
    thumbs-up, +1, etc.). For example:
 
-   ![heart](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_30_SocMediaCropped.png)
+   ![heart](https://curriculum-content.s3.amazonaws.com/phase-1/defining-fewp/Image_30_SocMediaCropped.png)
 
 Step 4: The visual element _updates_ (animates, goes from empty to full, jiggles,
    etc) like:  
 
-   ![full heart](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_30_SocMediaCropped1.png)
+   ![full heart](https://curriculum-content.s3.amazonaws.com/phase-1/defining-fewp/Image_30_SocMediaCropped1.png)
 
 Step 5: Behind the scenes, the application _tells the provider_ that this
    post has gained your approval so that the central provider can store
@@ -72,7 +72,7 @@ programming.
 To help us learn web programming in three distinct phases, this curriculum is
 broken down into three essential "pillars":
 
-![three pillars](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fewp-example/Image_31_ThreePillarsConcept.png)
+![three pillars](https://curriculum-content.s3.amazonaws.com/phase-1/defining-fewp/Image_31_ThreePillarsConcept.png)
 
 - **Recognize Events**
 - **Manipulate the DOM**
