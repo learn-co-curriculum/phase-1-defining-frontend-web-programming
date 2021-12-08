@@ -27,9 +27,9 @@ Web programming, at its heart, is:
 ## Web Page vs. Web Application
 
 When a web page has a lot of JavaScript code, the page feels closer to a
-computer application, so some people may call it a "**web application**." 
-However, it's worth noting that there is _**no clear distinction**_ between a 
-"web page" and a "web application." For instance, there's no rule like "When 
+computer application, so some people may call it a "**web application**."
+However, it's worth noting that there is _**no clear distinction**_ between a
+"web page" and a "web application." For instance, there's no rule like "When
 there are three or more actions it's a web application!" Different people draw the
 boundary differently. More or less, we call a web page an "application" when it
 feels "rich."
@@ -60,7 +60,7 @@ Step 4: The visual element _updates_ (animates, goes from empty to full, jiggles
 
 Step 5: Behind the scenes, the application _tells the provider_ that this
    post has gained your approval so that the central provider can store
-   this information and use it later (for example, to notify the post 
+   this information and use it later (for example, to notify the post
    author that you liked their post).
 
 If all goes as it should, the entire interaction only takes a second or two.
