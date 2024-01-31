@@ -5,13 +5,13 @@
 - Define web programming
 - Contrast web pages versus web applications
 - Identify a reference example: "Liking on social media"
-- Identify the "Three Pillars of Web Programming"
+- Identify Flatiron's "Three Pillars of Web Programming"
 
 ## Introduction
 
 The phrase "Front-End Web Programming" is used in different ways by different
 people. In this lesson, we're going to choose a definition of "web programming"
-and show an example that demonstrates Flatiron's "three pillars" of web
+and show an example that demonstrates what we call the "three pillars" of web
 programming. We will explore each of those pillars in detail in upcoming
 lessons.
 
@@ -51,12 +51,12 @@ Step 2: You see the content and decide to show your approval of it
 Step 3: You _click_ some visual element meant to show approval (heart,
    thumbs-up, +1, etc.). For example:
 
-   ![heart](https://curriculum-content.s3.amazonaws.com/phase-1/defining-fewp/Image_30_SocMediaCropped.png)
+   ![heart](https://curriculum-content.s3.amazonaws.com/phase-1/defining-fewp/heart.png)
 
 Step 4: The visual element _updates_ (animates, goes from empty to full, jiggles,
    etc) like:  
 
-   ![full heart](https://curriculum-content.s3.amazonaws.com/phase-1/defining-fewp/Image_30_SocMediaCropped1.png)
+   ![full heart](https://curriculum-content.s3.amazonaws.com/phase-1/defining-fewp/full-heart.png)
 
 Step 5: Behind the scenes, the application _tells the provider_ that this
    post has gained your approval so that the central provider can store
@@ -84,14 +84,14 @@ exemplify the activity of one of the "pillars" we must learn in order to make
 web applications.
 
 - Step 3 showed **Recognizing JS events**: Your _click_ action on the empty
-  heart tells JavaScript to do work
+  heart tells JavaScript to do work.
 
 - Step 4 showed **Manipulating the DOM**: the work JavaScript was told to do
-  was to _update_ the screen to make the heart "look clicked"
+  was to _update_ the screen to make the heart "look clicked."
 
 - Step 5 showed **Communicating with the server**: the work JavaScript was
   told to do was to _tell the social media company_ that you approved of this
-  content
+  content.
 
 > **THINKING ABOUT LEARNING:** These "pillars" are not something professional
 > developers outside Flatiron School recognize. You won't go into a
